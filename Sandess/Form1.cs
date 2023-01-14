@@ -35,6 +35,9 @@ namespace Sandess
         Dragon_attack dragon_Attack = new Dragon_attack();
         Favonius Favonius = new Favonius();
         Chest_farm chest_Farm = new Chest_farm();
+        Mail_katya mail_Katya = new Mail_katya();
+        Changing_cheat_settings_back changing_Cheat_Settings_Back = new Changing_cheat_settings_back();
+        Exit exit = new Exit();
 
         int number_str = 0; // Объявление переменной номера строки
         string log;
@@ -154,43 +157,23 @@ namespace Sandess
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //create_Character.create_character();
-            //changing_Cheat_Settings_X.сhanging_cheat_settings_sign_x();
-            //teleport_Activation.teleport_activation();
-            //numpad_Click.romb_skip();
-            //teleport_To_Cape.teleport_To_Cape();
-            //paimon_Escort.Paimon_Escort();
-            //map_Escape.map_escape();
-            //slime_Killing.kill_slime();
-            //venti_Cutscene.venti_cutscene();
-            //ember_Take.ember_take();
-            //camp_Mondshtat.camp_mondshtat();
-            //dragon_Attack.dragon_attack();
+            create_Character.create_character();
+            changing_Cheat_Settings_X.сhanging_cheat_settings_sign_x();
+            teleport_Activation.teleport_activation();
+            numpad_Click.romb_skip();
+            teleport_To_Cape.teleport_To_Cape();
+            paimon_Escort.Paimon_Escort();
+            map_Escape.map_escape();
+            slime_Killing.kill_slime();
+            venti_Cutscene.venti_cutscene();
+            ember_Take.ember_take();
+            camp_Mondshtat.camp_mondshtat();
+            dragon_Attack.dragon_attack();
             Favonius.favonius_enter();
             chest_Farm.ex_chest_farm();
-
-        }
-
-        void asd()
-        {
-            //выход из аккаунта
-            auto.Sleep(3000);
-            auto.Send("{' DOWN}");
-            auto.Sleep(400);
-            auto.Send("{ESC}");
-            auto.Sleep(700);
-            auto.MouseClick("LEFT", 25, 767, 1, 2);
-            auto.Sleep(400);
-            auto.MouseClick("LEFT", 615, 528, 1, 2);
-            auto.Sleep(5000);
-            pixel_look.pixel_look(63, 746, 0xFFFFFF);
-            auto.Sleep(400);
-            auto.MouseClick("LEFT", 972, 745, 1, 2);
-            auto.Sleep(400);
-            auto.MouseClick("LEFT", 571, 428, 1, 2);
-            auto.Sleep(300);
-            auto.Send("{' UP}");
-            auto.Sleep(2000);
-        }
+            mail_Katya.Mail_Katya();
+            changing_Cheat_Settings_Back.сhanging_cheat_settings_delete_all();
+            exit.exit();
+        }      
     }
 }

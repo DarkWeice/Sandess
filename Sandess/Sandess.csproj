@@ -61,7 +61,9 @@
     <Compile Include="Stage\Create_character.cs" />
     <Compile Include="Stage\Dragon_attack.cs" />
     <Compile Include="Stage\Ember_take.cs" />
+    <Compile Include="Stage\Exit.cs" />
     <Compile Include="Stage\Favonius.cs" />
+    <Compile Include="Stage\Mail_katya.cs" />
     <Compile Include="Stage\Paimon_escort.cs" />
     <Compile Include="Stage\Slime_killing.cs" />
     <Compile Include="Stage\Teleport_activation.cs" />

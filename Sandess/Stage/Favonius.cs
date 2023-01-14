@@ -23,7 +23,7 @@ namespace Sandess.Stage
             auto.Sleep(500);
             auto.Send("{' DOWN}");
             auto.Sleep(300);
-            // ↑↑↑ Game speed x15 ↑↑↑
+            // ↑↑↑ Game speed x20 ↑↑↑
 
             pixel_look.pixel_look(447, 757, 0x96D722); // HEX Отслеживание hp после выхода из битвы с драконом
             auto.Sleep(100);
@@ -47,6 +47,11 @@ namespace Sandess.Stage
             auto.Send("{NUMPAD9}"); // ON
             auto.Sleep(100);
             auto.Send("{NUMPAD8}"); // ON
+            auto.Sleep(100);
+
+            // ↓↓↓ Game speed x20 ↓↓↓
+            auto.Sleep(100);
+            auto.Send("{' UP}");
             auto.Sleep(100);
         }
 

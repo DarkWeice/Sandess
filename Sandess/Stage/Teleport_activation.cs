@@ -30,7 +30,6 @@ namespace Sandess.Stage
             auto.Sleep(100);
 
             var hp = auto.PixelGetColor(592, 412);
-            int a = 0;
             int b = 0;
 
             while (b != 30)

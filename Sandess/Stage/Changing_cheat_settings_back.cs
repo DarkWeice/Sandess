@@ -21,13 +21,15 @@ namespace Sandess.Stage
             auto.Opt("PixelCoordMode", 0);
 
             auto.Send("{F1}");
-            auto.Sleep(500);
-            auto.MouseClick("", 345, 524, 5, 2);
-            auto.Sleep(300);
-            auto.Send("{DELETE}");
-            auto.Sleep(300);
-            auto.MouseClick("", 290, 524, 1, 2);
-            auto.Sleep(300);
+            auto.Sleep(100);
+            pixel_look.pixel_look(650, 340, 0x182127); // HEX проверка открытого чита на "F1"
+            auto.Sleep(100);
+            auto.MouseClick("", 371, 524, 5, 0); // Место откуда убирать букву "x"
+            auto.Sleep(100);
+            auto.Send("{DELETE}");            
+            auto.Sleep(100);
+            auto.MouseClick("", 293, 524, 2, 0); // Отжатие галочки            
+            auto.Sleep(100);
             auto.Send("{F1}");
         }
 
