@@ -45,11 +45,11 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(623, 337);
+            this.button2.Location = new System.Drawing.Point(190, 12);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(90, 75);
+            this.button2.Size = new System.Drawing.Size(162, 91);
             this.button2.TabIndex = 1;
-            this.button2.Text = "Олег ЛОХ";
+            this.button2.Text = "Кнопка проверок";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 

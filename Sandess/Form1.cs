@@ -22,6 +22,20 @@ namespace Sandess
         Auto_captch Captch = new Auto_captch();
         Pixel_look pixel_look = new Pixel_look();
         Create_character create_Character = new Create_character();
+        Changing_cheat_settings_x changing_Cheat_Settings_X = new Changing_cheat_settings_x();
+        Teleport_activation teleport_Activation = new Teleport_activation();
+        Numpad_click numpad_Click = new Numpad_click();
+        Teleport_to_cape teleport_To_Cape = new Teleport_to_cape();
+        Paimon_escort paimon_Escort = new Paimon_escort();
+        Map_escape map_Escape = new Map_escape();
+        Slime_killing slime_Killing = new Slime_killing();
+        Venti_cutscene venti_Cutscene = new Venti_cutscene();
+        Ember_take ember_Take = new Ember_take();
+        Camp_mondshtat camp_Mondshtat = new Camp_mondshtat();
+        Dragon_attack dragon_Attack = new Dragon_attack();
+        Favonius Favonius = new Favonius();
+        Chest_farm chest_Farm = new Chest_farm();
+
         int number_str = 0; // Объявление переменной номера строки
         string log;
         string pas;
@@ -37,9 +51,10 @@ namespace Sandess
             auto.Opt("PixelCoordMode", 0);
             try
             {
-                int count = File.ReadAllLines("Data/New_accounts.txt").Length; // Считалка строк в тектовом документе
+
+                int count = File.ReadAllLines(@"..\\..\\Data\\New_accounts.txt").Length; // Считалка строк в тектовом документе
                 List<string> lists = new List<string>(); // Выделяет память под лист
-                foreach (string Row in File.ReadAllLines("Data/New_accounts.txt"))
+                foreach (string Row in File.ReadAllLines(@"..\\..\\Data\\New_accounts.txt"))
                 {
                     lists.Add(Row);// Создание листа типа "Массив"
                 }
@@ -70,7 +85,7 @@ namespace Sandess
                     var errorcalor = auto.PixelGetColor(351, 418);
                     int qwe = 0;
                     auto.Sleep(500);
-                    string path1 = "LosePass.txt";
+                    string path1 = @"..\\..\\Data\\LosePass.txt";
                     if (qwe != 10)
                     {
                         auto.Sleep(100);
@@ -118,14 +133,14 @@ namespace Sandess
 
                     //выход из аккаунта
 
-                    string path = "10AR_accounts.txt";
+                    string path = @"..\\..\\Data\\10AR_accounts.txt";
                     using (StreamWriter stream = new StreamWriter(path, true))
-                    stream.WriteLine(log + ";" + pas);
+                        stream.WriteLine(log + ";" + pas);
                     var tempFile = Path.GetTempFileName();
-                    var linesToKeep = File.ReadLines("New_accounts.txt").Where(l => l != log + ";" + pas);
+                    var linesToKeep = File.ReadLines(@"..\\..\\Data\\New_accounts.txt").Where(l => l != log + ";" + pas);
                     File.WriteAllLines(tempFile, linesToKeep);
-                    File.Delete("New_accounts.txt");
-                    File.Move(tempFile, "New_accounts.txt");
+                    File.Delete(@"..\\..\\Data\\New_accounts.txt");
+                    File.Move(tempFile, @"..\\..\\Data\\New_accounts.txt");
                     auto.Sleep(500);
                     number_str++;
                 }
@@ -134,12 +149,26 @@ namespace Sandess
             catch
             {
                 MessageBox.Show("Проблемы с чтением данных для входа");
-            }
+            }      
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            create_Character.create_character();
+            //create_Character.create_character();
+            //changing_Cheat_Settings_X.сhanging_cheat_settings_sign_x();
+            //teleport_Activation.teleport_activation();
+            //numpad_Click.romb_skip();
+            //teleport_To_Cape.teleport_To_Cape();
+            //paimon_Escort.Paimon_Escort();
+            //map_Escape.map_escape();
+            //slime_Killing.kill_slime();
+            //venti_Cutscene.venti_cutscene();
+            //ember_Take.ember_take();
+            //camp_Mondshtat.camp_mondshtat();
+            //dragon_Attack.dragon_attack();
+            Favonius.favonius_enter();
+            chest_Farm.ex_chest_farm();
+
         }
 
         void asd()

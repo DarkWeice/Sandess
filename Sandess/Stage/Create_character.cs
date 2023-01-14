@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using AutoItX3Lib;
 using Sandess.Utilities;
+using AutoItX3Lib;
 
 namespace Sandess.Stage
 {
@@ -36,7 +36,7 @@ namespace Sandess.Stage
             auto.Send("Kirito"); // Написание никнейма
             auto.Sleep(100);
             auto.MouseClick("", 920, 740, 1, 0); // Нажатие на "Подтвердить"
-            auto.Sleep(500); //123
+            auto.Sleep(500);
 
             // ↓↓↓ Game speed x20 ↓↓↓
             auto.Sleep(500);
