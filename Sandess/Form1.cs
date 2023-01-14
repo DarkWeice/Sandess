@@ -16,6 +16,7 @@ using Sandess.Stage;
 
 namespace Sandess
 {
+
     public partial class Form1 : Form
     {
         AutoItX3 auto = new AutoItX3();

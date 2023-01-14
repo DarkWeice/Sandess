@@ -712,6 +712,15 @@ namespace Sandess.Utilities
                         auto.Sleep(1500);
                         lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
                         break;
+                    case 3200123190:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(539, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
                     case 419098728:
                         auto.MouseMove(440, 460);
                         auto.Sleep(SleepDelay);
@@ -721,6 +730,294 @@ namespace Sandess.Utilities
                         auto.Sleep(1500);
                         lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
                         break;
+                    case 2622521518:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(549, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+
+
+
+                    case 3843598332:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(555, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 2905404227:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(560, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 2943144946:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(525, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 3046272922:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(542, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 2571339197:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(570, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 4000320370:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(547, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 902341345:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(564, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 3326662707:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(537, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 3829474745:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(568, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 3632203512:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(565, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 271320396:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(515, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 2062722190:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(562, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 1883645449:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(547, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 2494127305:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(539, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 777626601:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(589, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 1852880399:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(555, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 3576411832:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(522, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 1041794494:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(569, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 3864672251:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(573, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 411793604:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(510, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 3724585561:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(545, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 3821310752:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(585, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 2498817969:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(585, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 3221007686:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(535, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 4214053293:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(537, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 2083276356:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(532, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 3123466044:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(523, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 971725625:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(533, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 4107191642:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(576, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+                    case 160400639:
+                        auto.MouseMove(440, 460);
+                        auto.Sleep(SleepDelay);
+                        auto.MouseDown("LEFT");
+                        auto.MouseMove(526, 460);
+                        auto.MouseUp("LEFT");
+                        auto.Sleep(1500);
+                        lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
+                        break;
+
+
+
+                        /////////////////////////////////////////////////////////////
+                       
+
                     case 21721935://если вылазит синяя ошибка после не точного ввода капчи
                         auto.MouseMove(516, 450);
                         auto.Sleep(SleepDelay);
@@ -728,6 +1025,7 @@ namespace Sandess.Utilities
                         auto.Sleep(1500);
                         lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
                         continue;
+
                     default:
                         auto.Sleep(1000);
                         kcolor = auto.PixelGetColor(483, 454);
