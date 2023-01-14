@@ -104,7 +104,6 @@ namespace Sandess.Utilities
                         auto.Sleep(1500);
                         lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
                         break;
-
                     case 3607559517:
                         auto.MouseMove(440, 460);
                         auto.Sleep(SleepDelay);
@@ -123,7 +122,6 @@ namespace Sandess.Utilities
                         auto.Sleep(1500);
                         lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
                         break;
-
                     case 3335216266:
                         auto.MouseMove(440, 460);
                         auto.Sleep(SleepDelay);
@@ -186,7 +184,6 @@ namespace Sandess.Utilities
                         auto.MouseUp("LEFT");
                         auto.Sleep(1500);
                         lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
-
                         break;
                     case 1153823886:
                         auto.MouseMove(440, 460);
@@ -664,8 +661,6 @@ namespace Sandess.Utilities
                         auto.Sleep(1500);
                         lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
                         break;
-
-
                     case 2274663057:
                         auto.MouseMove(440, 460);
                         auto.Sleep(SleepDelay);
@@ -675,7 +670,6 @@ namespace Sandess.Utilities
                         auto.Sleep(1500);
                         lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
                         break;
-
                     case 1748289274:
                         auto.MouseMove(440, 460);
                         auto.Sleep(SleepDelay);
@@ -739,9 +733,6 @@ namespace Sandess.Utilities
                         auto.Sleep(1500);
                         lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
                         break;
-
-
-
                     case 3843598332:
                         auto.MouseMove(440, 460);
                         auto.Sleep(SleepDelay);
@@ -1013,10 +1004,15 @@ namespace Sandess.Utilities
                         lcolor = auto.PixelGetColor(400, 490);//beliy poka rabotaet
                         break;
 
-
-
                         /////////////////////////////////////////////////////////////
-                       
+                        
+                     case 2304132522://если вылазит синяя ошибка после не точного ввода капчи
+                        auto.Sleep(500);
+                        auto.MouseClick("LEFT", 244, 376, 1, 0);
+                        auto.Sleep(1000);
+                        auto.MouseClick("LEFT", 671, 595, 1, 0);
+                        auto.Sleep(1000);                    
+                        break;
 
                     case 21721935://если вылазит синяя ошибка после не точного ввода капчи
                         auto.MouseMove(516, 450);
