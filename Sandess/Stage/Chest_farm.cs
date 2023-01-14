@@ -28,7 +28,7 @@ namespace Sandess.Stage
             while (b != 25)
             {
                 hp = auto.PixelGetColor(447, 757);
-                auto.Sleep(200);
+                auto.Sleep(100);
                 if (hp == 0x96d722)
                 {
                     b++;

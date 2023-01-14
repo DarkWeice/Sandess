@@ -97,18 +97,7 @@ namespace Sandess.Stage
             auto.Sleep(250);
             auto.MouseClick("LEFT", 828, 756, 1, 0);
             auto.Sleep(250);
-
-            auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(250);
-            auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(250);
-            auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(250);
-            auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(250);
-            auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(250);
-
+            
             auto.Sleep(500);                     
             auto.Send("{ESC}");
             auto.Sleep(500);

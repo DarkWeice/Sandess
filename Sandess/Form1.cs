@@ -39,7 +39,6 @@ namespace Sandess
         Changing_cheat_settings_back changing_Cheat_Settings_Back = new Changing_cheat_settings_back();
         Exit exit = new Exit();
 
-        int number_str = 0; // Объявление переменной номера строки
         string log;
         string pas;
         public Form1()
@@ -54,20 +53,19 @@ namespace Sandess
             auto.Opt("PixelCoordMode", 0);
             try
             {
-
-                int count = File.ReadAllLines(@"..\\..\\Data\\New_accounts.txt").Length; // Считалка строк в тектовом документе
                 List<string> lists = new List<string>(); // Выделяет память под лист
                 foreach (string Row in File.ReadAllLines(@"..\\..\\Data\\New_accounts.txt"))
                 {
                     lists.Add(Row);// Создание листа типа "Массив"
                 }
                 auto.Opt("PixelCoordMode", 0);
+                auto.Sleep(1000);
                 foreach (string s in lists)
                 {
                     auto.Opt("PixelCoordMode", 0);
                     string[] one = s.Split(';'); // Сплитит mail от pass знаком ";"
-                    log = one[0 + number_str];
-                    pas = one[1 + number_str];
+                    log = one[0];
+                    pas = one[1];
                     auto.Sleep(100);
                     auto.MouseClick("LEFT", 500, 310); // Нажатие на место под логин
                     auto.Sleep(700);
@@ -88,7 +86,7 @@ namespace Sandess
                     var errorcalor = auto.PixelGetColor(351, 418);
                     int qwe = 0;
                     auto.Sleep(500);
-                    string path1 = @"..\\..\\Data\\LosePass.txt";
+                    string path1 = "..\\..\\Data\\LosePass.txt";
                     if (qwe != 10)
                     {
                         auto.Sleep(100);
@@ -97,13 +95,18 @@ namespace Sandess
                         {
                             using (StreamWriter stream1 = new StreamWriter(path1, true))
                                 stream1.WriteLine(log + ";" + pas);
-                            number_str++;
+                            var tempFile1 = Path.GetTempFileName();
+                            var linesToKeep1 = File.ReadLines(@"..\..\Data\New_accounts.txt").Where(l => l != log + ";" + pas);
+                            File.WriteAllLines(tempFile1, linesToKeep1);
+                            File.Delete(@"..\..\Data\New_accounts.txt");
+                            File.Move(tempFile1, @"..\..\Data\New_accounts.txt");
                             continue;
                         }
                         qwe++;
                     }
                     auto.Sleep(5000);
                     var ExitBtnColor = auto.PixelGetColor(973, 742);
+
                     if (ExitBtnColor == 0x7f7f7f)
                     {
                         auto.Sleep(500);
@@ -134,7 +137,23 @@ namespace Sandess
                         auto.Send("{' UP}");
                     }
 
-                    //выход из аккаунта
+                    create_Character.create_character();
+                    changing_Cheat_Settings_X.сhanging_cheat_settings_sign_x();
+                    teleport_Activation.teleport_activation();
+                    numpad_Click.romb_skip();
+                    teleport_To_Cape.teleport_To_Cape();
+                    paimon_Escort.Paimon_Escort();
+                    map_Escape.map_escape();
+                    slime_Killing.kill_slime();
+                    venti_Cutscene.venti_cutscene();
+                    ember_Take.ember_take();
+                    camp_Mondshtat.camp_mondshtat();
+                    dragon_Attack.dragon_attack();
+                    Favonius.favonius_enter();
+                    chest_Farm.ex_chest_farm();
+                    mail_Katya.Mail_Katya();
+                    changing_Cheat_Settings_Back.сhanging_cheat_settings_delete_all();
+                    exit.exit();
 
                     string path = @"..\\..\\Data\\10AR_accounts.txt";
                     using (StreamWriter stream = new StreamWriter(path, true))
@@ -145,35 +164,28 @@ namespace Sandess
                     File.Delete(@"..\\..\\Data\\New_accounts.txt");
                     File.Move(tempFile, @"..\\..\\Data\\New_accounts.txt");
                     auto.Sleep(500);
-                    number_str++;
                 }
                 auto.Sleep(500);
             }
             catch
             {
                 MessageBox.Show("Проблемы с чтением данных для входа");
-            }      
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            create_Character.create_character();
-            changing_Cheat_Settings_X.сhanging_cheat_settings_sign_x();
-            teleport_Activation.teleport_activation();
-            numpad_Click.romb_skip();
-            teleport_To_Cape.teleport_To_Cape();
-            paimon_Escort.Paimon_Escort();
-            map_Escape.map_escape();
-            slime_Killing.kill_slime();
-            venti_Cutscene.venti_cutscene();
-            ember_Take.ember_take();
-            camp_Mondshtat.camp_mondshtat();
-            dragon_Attack.dragon_attack();
-            Favonius.favonius_enter();
-            chest_Farm.ex_chest_farm();
-            mail_Katya.Mail_Katya();
-            changing_Cheat_Settings_Back.сhanging_cheat_settings_delete_all();
-            exit.exit();
-        }      
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Process.Start("..\\..\\Data\\New_accounts.txt");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Process.Start("..\\..\\Data\\10AR_accounts.txt");
+        }
     }
 }
