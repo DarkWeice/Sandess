@@ -28,9 +28,10 @@ namespace Sandess.Stage
             auto.Sleep(100);
             auto.Send("{DELETE}");            
             auto.Sleep(100);
-            auto.MouseClick("", 293, 524, 2, 0); // Отжатие галочки            
+            auto.MouseClick("", 293, 524, 1, 0); // Отжатие галочки            
             auto.Sleep(100);
             auto.Send("{F1}");
+
         }
 
     }

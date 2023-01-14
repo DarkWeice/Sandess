@@ -33,59 +33,81 @@ namespace Sandess.Stage
             auto.Sleep(250);
 
             auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(150);
+            auto.Sleep(250);
             auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(150);
+            auto.Sleep(250);
             auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(150);
+            auto.Sleep(250);
             auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(150);
+            auto.Sleep(250);
             auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(150);
+            auto.Sleep(250);
 
             auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(150);
+            auto.Sleep(250);
             auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(150);
+            auto.Sleep(250);
             auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(150);
+            auto.Sleep(250);
             auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(150);
+            auto.Sleep(250);
             auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(150);
+            auto.Sleep(250);
 
             auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(150);
+            auto.Sleep(250);
             auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(150);
+            auto.Sleep(250);
             auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(150);
+            auto.Sleep(250);
             auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(150);
+            auto.Sleep(250);
             auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(150);
+            auto.Sleep(250);
 
             auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(150);
+            auto.Sleep(250);
             auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(150);
+            auto.Sleep(250);
             auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(150);
+            auto.Sleep(250);
             auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(150);
+            auto.Sleep(250);
             auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(150);
+            auto.Sleep(250);
 
             auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(150);
+            auto.Sleep(250);
             auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(150);
+            auto.Sleep(250);
             auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(150);
+            auto.Sleep(250);
             auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(150);
+            auto.Sleep(250);
             auto.MouseClick("LEFT", 828, 756, 1, 0);
-            auto.Sleep(150);
+            auto.Sleep(250);
+
+            auto.MouseClick("LEFT", 828, 756, 1, 0);
+            auto.Sleep(250);
+            auto.MouseClick("LEFT", 828, 756, 1, 0);
+            auto.Sleep(250);
+            auto.MouseClick("LEFT", 828, 756, 1, 0);
+            auto.Sleep(250);
+            auto.MouseClick("LEFT", 828, 756, 1, 0);
+            auto.Sleep(250);
+            auto.MouseClick("LEFT", 828, 756, 1, 0);
+            auto.Sleep(250);
+
+            auto.MouseClick("LEFT", 828, 756, 1, 0);
+            auto.Sleep(250);
+            auto.MouseClick("LEFT", 828, 756, 1, 0);
+            auto.Sleep(250);
+            auto.MouseClick("LEFT", 828, 756, 1, 0);
+            auto.Sleep(250);
+            auto.MouseClick("LEFT", 828, 756, 1, 0);
+            auto.Sleep(250);
+            auto.MouseClick("LEFT", 828, 756, 1, 0);
+            auto.Sleep(250);
 
             auto.Sleep(500);                     
             auto.Send("{ESC}");
@@ -106,7 +128,7 @@ namespace Sandess.Stage
             auto.Sleep(500);
             auto.MouseClick("LEFT", 27, 371, 1, 0);
             auto.Sleep(100);
-            pixel_look.pixel_look(863, 735, 0x99CC33);
+            pixel_look.pixel_look(81, 761, 0xFFCC33); // Доделать
             auto.Sleep(100);
             auto.MouseClick("LEFT", 135, 765, 1, 0);
             auto.Sleep(500);

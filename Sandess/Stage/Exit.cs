@@ -16,7 +16,8 @@ namespace Sandess.Stage
 
 
         public void exit()
-        {           
+        {
+            auto.Sleep(1000);
             auto.MouseClick("LEFT", 27, 763, 1, 0);
             auto.Sleep(300);
             auto.MouseClick("LEFT", 630, 526, 1, 0);
