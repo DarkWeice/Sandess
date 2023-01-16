@@ -67,19 +67,19 @@ namespace Sandess
                     log = one[0];
                     pas = one[1];
                     auto.Sleep(100);
-                    auto.MouseClick("LEFT", 500, 310,1,0); // Нажатие на место под логин
+                    auto.MouseClick("LEFT", 500, 310); // Нажатие на место под логин
                     auto.Sleep(700);
                     auto.Send("^a");
                     auto.Sleep(700);
                     auto.Send(log);
                     auto.Sleep(500);
-                    auto.MouseClick("LEFT", 500, 385,1,0); // Нажатие на место под пароль
+                    auto.MouseClick("LEFT", 500, 385); // Нажатие на место под пароль
                     auto.Sleep(500);
                     auto.Send("^a");
                     auto.Sleep(500);
                     auto.Send(pas);
                     auto.Sleep(1000);
-                    auto.MouseClick("LEFT", 510, 520,1,0); // Нажатие на вход
+                    auto.MouseClick("LEFT", 510, 520); // Нажатие на вход
                     auto.Sleep(1000);
                     pixel_look.pixel_look(437, 463, 0x64CC02);
                     Captch.CaptchEnter();
@@ -110,17 +110,17 @@ namespace Sandess
                     if (ExitBtnColor == 0x7f7f7f)
                     {
                         auto.Sleep(500);
-                        auto.MouseClick("LEFT", 244, 376,1,0);
+                        auto.MouseClick("LEFT", 244, 376);
                         auto.Sleep(1000);
-                        auto.MouseClick("LEFT", 671, 595, 1, 0);
+                        auto.MouseClick("LEFT", 671, 595);
                         auto.Sleep(1000);
                         auto.Send("{' DOWN}");
                         auto.Sleep(500);
-                        auto.MouseClick("LEFT", 520, 290, 1, 0);
+                        auto.MouseClick("LEFT", 520, 290);
                         auto.Sleep(500);
                         pixel_look.pixel_look(973, 742, 0xfefefe);//ждем кнопку выхода
                         auto.Sleep(500);
-                        auto.MouseClick("LEFT", 520, 290, 1, 0);
+                        auto.MouseClick("LEFT", 520, 290);
                         auto.Sleep(500);
                         auto.Send("{' UP}");
                     }
@@ -128,11 +128,11 @@ namespace Sandess
                     {
                         auto.Send("{' DOWN}");
                         auto.Sleep(500);
-                        auto.MouseClick("LEFT", 520, 290,1,0);
+                        auto.MouseClick("LEFT", 520, 290);
                         auto.Sleep(500);
                         pixel_look.pixel_look(973, 742, 0xfefefe);
                         auto.Sleep(500);
-                        auto.MouseClick("LEFT", 520, 290,1,0);//ждем кнопку выхода
+                        auto.MouseClick("LEFT", 520, 290);//ждем кнопку выхода
                         auto.Sleep(500);
                         auto.Send("{' UP}");
                     }
